@@ -5,10 +5,10 @@ import pandas
 import sklearn
 
 # loading the saved models
-diabetes_model = pickle.load(open("D:/multiple disease prediction system/diabetes_prediction_model.sav", "rb"))
-HeartDisease_model = pickle.load(open("D:/multiple disease prediction system/heart_model (1).sav", "rb"))
+diabetes_model = pickle.load(open("diabetes_prediction_model.sav", "rb"))
+HeartDisease_model = pickle.load(open("heart_model (1).sav", "rb"))
 parkinsons_model = pickle.load(
-    open("D:/multiple disease prediction system/Parkison's_disease_prediction_model.sav", 'rb'))
+    open("Parkison's_disease_prediction_model.sav", 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
